@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.citylisting{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.centered{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.font{
+  font-size: small;
+  font-family:  Tahoma;
+  width: auto;
+}
+p{
+  font-size: small;
+}
+.hardwitdth{
+ width: 100%;
+}
+.bordered{
+  border: 2px red solid;
+  max-width: 200px;
+}
+
+@media (max-width: 622px) {
+  .city-card{
+    background-color: rgb(239, 253, 255);
+    border: 5px  rgb(142, 240, 255) solid;
+    border-radius: 10px;
+    padding: 10px auto 10px auto;
+    margin: 2px;
+    width: 150px;
+  }
+  .mainframe{
+    max-width: 100%;
+  }
+  .custom-chart{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+} 
+@media (min-width: 622px) {
+  .city-card{
+    background-color: rgb(239, 253, 255);
+    border: 5px  rgb(142, 240, 255) solid;
+    border-radius: 5px;
+    margin: 3px;
+    width: 200px;
+  }
+  .mainframe{
+    max-width: 80%;
+  }
+  .custom-chart{
+    width: 100%;
+    height: 400px;
+  }
+} 
+.icon{
+  width: auto;
+  height: 25px;
+}
+.large-icon{
+  width: 100px;
+  height: auto;
+}
+.nowrap-line{
+  white-space: nowrap;
+}
+.custom-flexbox{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered{
+  margin-left: auto;
+  margin-right: auto;
+}
