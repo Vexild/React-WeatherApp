@@ -12,7 +12,11 @@ Add this key to .env:
 
 ----
 
-Now let's start the app from the root folder:
+We asume you've installed NodeJS and React.
+Insall all the dependencies in the root folder:
+## `npm install`
+
+And start the app:
 
 ## `npm start`
 
