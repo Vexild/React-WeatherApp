@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Icons made by bqlqn from www.flaticon.com
 ### NOTE: App language in finnish, documentation in english
 ## About dot-env
 
@@ -12,8 +12,8 @@ Add this key to .env:
 
 ----
 
-We asume you've installed NodeJS and React.
-Insall all the dependencies in the root folder:
+We asume you've already installed NodeJS and React.
+First install all dependencies in the root folder:
 ## `npm install`
 
 And start the app:
